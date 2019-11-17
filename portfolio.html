@@ -9,16 +9,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
-<body>
+<body style="height: 100vh">
     <!-- Navbar  -->
     <header class="border-bottom border-secondary">
         <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #4aaaa5;">
-            <div class="container">
+            <div class="container" style="width: 960px;">
                 <a class="navbar-brand" href="#"><strong>Zayd Sarraj</strong></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
+                <!-- Drop-down menu for resized screen -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+                    aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Tells the menu to collapse -->
                 <div class="collapse navbar-collapse" id="navbarMenu">
+                    <!-- Menu links -->
                     <ul class="d-flex justify-content-end navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html"><strong>About</strong></a>
@@ -34,14 +38,38 @@
             </div>
         </nav>
     </header>
+    <!-- Backouground pattern  -->
+        <div class="container-fluid d-flex h-100 py-3"
+            style="background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/elegant_grid.png)">
+            <!-- Container for main body  -->
+            <div class="container border border-secondary mb-auto" style="width: 960px; background-color: white;">
+                <!-- Top row for Title  -->
+                <div class="row border-bottom border-secondary mx-auto">
+                    <h2 class="mt-3" style="color:#4aaaa5;">Portfolio</h2>
+                </div>
+                <!-- Next row for  -->
+            </div>
+        </div> 
+
+        
+    <div class="row" style="background-color: #4aaaa5;">
+    <p> </p></div>
+    <footer>
+        <div class="row" style="background-color: #777777; color: white;">
+            <p class="m-auto p-1">Copyright © Zayd Sarraj</p>
+        </div>
+    </footer>
 
 
-
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
