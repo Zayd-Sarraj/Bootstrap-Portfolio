@@ -6,31 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <!-- Booststrap and CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body>
-
-    <div class="sidebar border-left border-bottom border-secondary" >
-        <br>
+<!-- Single porfolio row -->
+<div class="container-fluid" style="float: none;">
+    <div class="row portfolioRow" id="teamprofile">
+        <div class="col-3 text-center align-self-center">
+            <div class="rowtitle text-light">
+                <!-- Title for the portfolio item -->
+                <h1 class="rowRepotitle teamprofile-link">Note Taker</h1>
+                <p class="rowRepo" id="teamprofile-repo">Repository</p>
+            </div>
+            <!-- Card containing technologies used -->
+            <div class="card mx-auto bg-transparent border-light" style="max-width: 18rem;">
+                <div class="card-body text-light">
+                    <h5 class="card-title">Primary Technologies</h5>
+                    <p class="card-text">Javascript <br> Node.js <br> HTML5 <br> CSS </p>
+                </div>
+            </div>
+        </div>
+         <!-- Image of application/code -->
+         <div class="col">
+            <div class="teamprofile-link appexample bg-transparent border-light mx-auto my-3 card">
+                <img src="./assets/images/teamprofile.png" class="card-img rowimg" alt="teamprofile-app">
+            </div>
+        </div>
     </div>
-
+</div>
+<!-- Single porfolio row -->
     <div class="container-fluid" style="float: none;">
-    <div class="row">
-
-
-        
+        <div class="row portfolioRow" id="notetaker">
+             <!-- Image of application/code -->
+             <div class="col">
+                <div class="note-taker-link appexample mx-auto my-3 card bg-transparent border-dark text-white">
+                    <img src="./assets/images/notetakerss.png" class="card-img rowimg" alt="note-taker-app">
+                </div>
+            </div>
+            <div class="col-3 text-center align-self-center">
+                <div class="rowtitle">
+                    <!-- Title for the portfolio item -->
+                    <h1 class="rowRepotitle note-taker-link">Note Taker</h1>
+                    <p class="rowRepo" id="note-taker-repo">Repository</p>
+                </div>
+                <!-- Card containing technologies used -->
+                <div class="card bg-transparent mx-auto border-dark" style="max-width: 18rem;">
+                    <div class="cardbkg card-body text-dark">
+                        <h5 class="card-title">Primary Technologies</h5>
+                        <p class="card-text">Javascript <br> Heroku.js <br> Node.js <br> HTML5 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
-     
 
 
-
-
-
-
+<!-- JS Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -40,7 +75,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        <script src="./assets/script/script.js"></script>
+    <script src="./assets/script/script.js"></script>
 
 </body>
 

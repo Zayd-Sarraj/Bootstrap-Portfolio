@@ -6,6 +6,9 @@
   background-color: transparent !important;
 }
 
+.rowimg {
+  opacity: 0.80;
+}
 
 .zs {
   display: inline;
@@ -67,9 +70,8 @@
   left: 1%;
 }
 
-
 .phonedivparent {
-  height: 24px;
+  height: 16px;
   position: relative;
   top: 42%;
   left: 1%
@@ -92,12 +94,12 @@
   overflow: hidden;
   display: inline-block;
   vertical-align: middle;
-  transition: .1s linear;
+  transition: .2s linear;
   
 }
 
 .phone:nth-child(1):after {
-  content: '703-627-5499';
+  content: '(703) 627 5499';
   color:  rgb(39, 59, 85) 56%;
   position: relative;
   bottom: 1.8px;
@@ -105,7 +107,7 @@
 
 
 .phonediv:hover .phone:nth-child(1):after {
-  width: 116px;
+  width: 140px;
 }
 
 .emaildivparent {
@@ -173,6 +175,35 @@
   left: 1%;
 }
 
+
+#notetaker {
+  background: url(../images/notetaker.jpg);
+  background-position: bottom;
+}
+
+#teamprofile {
+  background: url(../images/teamprofile.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.rowRepo {
+  margin-top: -10px;
+}
+
+.rowRepo:hover {
+  color: dimgrey;
+}
+
+.rowRepotitle:hover {
+  color: dimgrey;
+}
+
+.appexample {
+  width: 85%;
+  height: auto;
+}
+
 @media screen and (max-width: 1280px) {
 
 .zs {
@@ -195,10 +226,10 @@
 
 @media screen and (max-width: 720px) {
 
-  .initials {
-    position: relative;
-    top: 36%;
-    left: 1.2%
+.initials {
+  position: relative;
+  top: 36%;
+  left: 1.2%
 }
 
 .sidebar {
