@@ -5,28 +5,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio Home</title>
+    <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
 <body background="./assets/images/tobiasbjerknes.jpg"
     style="background-position: center; background-attachment: fixed; background-size: cover; height: 100%;">
 
-    <div class="border-left border-secondary"
-        style="float: right; width: 4%; height: 100%; background-color: rgba(44, 50, 56, 0.3)">
-        <br>
+<!-- Name Div -->
+    <div class="text-center initials" style="float: none;">
+        <div class="zsfield">
+            <span class="p-link zs">Z</span>
+            <span class="p-link zs">S</span>
+
+        </div>
     </div>
-
-    <div class="text-center" style="float: none;">
-        <p style="font-size: 80px; font-weight: bolder; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: rgba(44, 50, 56, 0.6);">
-               ZS
-        </p>
+<!-- Email Div -->
+    <div class="emaildivparent text-center" style="float: none;">
+        <div class="emaildiv">
+            <span data-toggle="modal" data-target="#exampleModalCenter" class="email">@</span>
+        </div>
     </div>
+<!-- Phone Div -->
+    <div class="phonedivparent text-center" style="float: none;">
+        <div class="phonediv">
+            <span class="phone">#</span>
+        </div>
+    </div>
+<!-- Socials Div -->
+<div class="socialsparent text-center" style="float: none;">
+    <div class="linkedindiv">
+        <a href="https://www.linkedin.com/in/zayd-sarraj-445930196/" class="mx-2 fa fa-linkedin"></a>
+        <a href="https://github.com/Zaydorade" class="fa fa-github"></a>
 
+    </div>
+</div>
 
+<!-- Email Modal --------------- One day I will make this more useful ---------------------- -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="container mb-auto text-center"
+                        style="width: 60%; background-color: transparent">
+                        <!-- <div class="row border-bottom border-secondary mx-auto">
+                            <h2 class="text-light mt-3">Contact</h2>
+                        </div> -->
+                        <!-- <div class="row py-3 m-auto">
+                            <div class="col"> -->
+                                <!-- LEAVING THIS BLANK ON PURPOSE -->
+                                <form
+                                action="mailto:*********"
+                                method="POST"
+                                enctype="multipart/form-data">
+                                    <!-- <div class="form-group">
+                                        <label class="text-light">Name</label>
+                                        <input type="text" name="Sender Name" class="form-control" placeholder="John Smith">
+                                    </div>
 
+                                    <div class="form-group">
+                                        <label class="text-light">Email address</label>
+                                        <input type="text" name="Sender Email" class="form-control" placeholder="name@example.com">
+                                    </div>
+                                    <div class="form-group">
 
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="text-light">Message</label>
+                                        <textarea name="content" class="form-control" rows="4"></textarea>
+                                    </div> -->
+                                    <button type="submit" class="btn btn-secondary"
+                                        style="background-color: transparent">Send me an Email!</button>
+                                </form>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -39,6 +107,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="./assets/script/script.js"></script>
+
 </body>
 
 </html>

@@ -1,0 +1,210 @@
+.modal-content {
+  background-color: rgba(0,0,0,.8) !important;
+}
+
+.fa {
+  background-color: transparent !important;
+}
+
+
+.zs {
+  display: inline;
+  font-size: 72px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  background: linear-gradient(white 40%, rgb(39, 59, 85) 56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(0,0,0,0);
+}
+
+.zs:after {
+  width: 0%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  transition: .2s linear;
+}
+
+.zs:nth-child(1):after {
+  content: 'ayd';
+  background: linear-gradient(white 40%, rgb(39, 59, 85) 56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  bottom: 5px;
+}
+
+.zs:nth-child(2):after {
+  content: 'arraj';
+  background: linear-gradient(white 40%, rgb(39, 59, 85) 56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  bottom: 5px;
+}
+
+.zsfield:hover .zs {
+  -webkit-text-fill-color: rgba(0,0,0,.5);
+}
+
+.zsfield:hover .zs:nth-child(1):after {
+  width: 120px;
+  -webkit-text-fill-color: rgba(0,0,0,.5);
+}
+
+.zsfield:hover .zs:nth-child(2):after {
+  width: 155px;  
+  -webkit-text-fill-color: rgba(0,0,0,.5);
+}
+
+.initials {
+  position: relative;
+  top: 39%;
+  left: 1%
+}
+
+.initials:hover {
+  left: 1%;
+}
+
+
+.phonedivparent {
+  height: 24px;
+  position: relative;
+  top: 42%;
+  left: 1%
+}
+
+.phonedivparent:hover {
+  top: 46%;
+}
+
+.phone {
+  display: inline;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: rgb(25, 0, 0) 56%;
+}
+
+.phone:after {
+  width: 0%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  transition: .1s linear;
+  
+}
+
+.phone:nth-child(1):after {
+  content: '703-627-5499';
+  color:  rgb(39, 59, 85) 56%;
+  position: relative;
+  bottom: 1.8px;
+}
+
+
+.phonediv:hover .phone:nth-child(1):after {
+  width: 116px;
+}
+
+.emaildivparent {
+  height: 24px;
+  position: relative;
+  top: 41%;
+  left: 1%;
+}
+
+
+.email {
+  display: inline;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: rgb(39, 40, 85) 56%;
+}
+
+.email:hover {
+  color: dimgrey;
+}
+
+.email:after {
+  width: 0%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  transition: .1s linear;
+}
+
+.email:nth-child(1):after {
+  content: 'gmail.com';
+  color:  rgb(25, 0, 0) 56%;
+  position: relative;
+  bottom: 1.8px;
+}
+
+.emaildiv:hover .email:nth-child(1):after {
+  width: 90px;
+}
+
+.email:before {
+  width: 0%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  transition: .1s linear;
+}
+
+.email:nth-child(1):before {
+  content: 'Zayd.sarraj';
+  color:  rgb(25, 0, 0) 56%;
+  position: relative;
+  bottom: 1.8px;
+}
+
+.emaildiv:hover .email:nth-child(1):before {
+  width: 100px;
+}
+
+.socialsparent {
+  height: 40px;
+  position: relative;
+  top: 70%;
+  left: 1%;
+}
+
+@media screen and (max-width: 1280px) {
+
+.zs {
+  font-size: 54px;
+}
+.initials {
+  top: 41%;
+}
+}
+
+@media screen and (max-width: 1080px) {
+
+.zsfield:hover .zs:nth-child(1):after {
+  width: 92px;
+}
+.zsfield:hover .zs:nth-child(2):after {
+  width: 120px;
+}
+}
+
+@media screen and (max-width: 720px) {
+
+  .initials {
+    position: relative;
+    top: 36%;
+    left: 1.2%
+}
+
+.sidebar {
+  float: top;
+  width: 100%; 
+  height: 5%; 
+  background-color: rgba(44, 50, 56, 0.3);
+}
+}
