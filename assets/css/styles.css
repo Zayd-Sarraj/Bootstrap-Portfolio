@@ -181,6 +181,17 @@
   background-position: bottom;
 }
 
+#captClown {
+  background: url(../images/clown.jpg);
+  background-size: cover;
+}
+
+#topiks-bg {
+  background: url(../images/topiksbg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 #teamprofile {
   background: url(../images/teamprofile.jpg);
   background-position: center;
